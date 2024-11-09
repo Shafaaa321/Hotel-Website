@@ -1,27 +1,55 @@
 body {
-    width: 360px;
-    background-color: pink;
+
+}
+.hotel {
+    width: 400px;
+    height: 6000px;
 }
 .one {
-    width: 350px;
+    width: 380px;
     height: 40px;
-    background-color: red;
 }
 h1 {
-    color: 2A9OD9;
     font: "Montserrat";
-    margin-left: 70px;
-    margin-top: -50px;
+    margin-left: 60px;
+    margin-top: -72px;
+}
+.aa {
+    color: cornflowerblue;
 }
 span {
-    color: EE685F;
+    color: palevioletred;
 }
 .pic1 {
-    padding-left: 15px;
+    padding-left: 10px;
     margin-top: 15px;
 }
 .pic2 {
-    padding-left: 310px;
+    padding-left: 320px;
     margin-top: -30px;
+    padding-bottom: 40px;
+}
+.two {
+    width: 400px;
+    padding-top: 20px;
+}
+.pic3 {
     
+}
+.ab {
+
+}
+
+h2 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+.pic5 {
+    margin-left: 155px;
+    margin-top: 30px;
+}
+h3 {
+    text-align: center;
 }
