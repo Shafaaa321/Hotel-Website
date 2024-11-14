@@ -10,12 +10,12 @@ body {
     height: 40px;
 }
 h1 {
-    font: "Montserrat";
+    font-family: "Montserrat";
     margin-left: 60px;
     margin-top: -72px;
 }
 .aa {
-    color: cornflowerblue;
+    color: #2A90D9;
 }
 span {
     color: palevioletred;
