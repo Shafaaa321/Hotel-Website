@@ -25,7 +25,7 @@ This Hotel website is a modern, user-friendly platform designed to showcase the 
   - [Author(s)](#authors)
   
 ## Introduction
-Welcome to my Hotel website, a fully responsive and user-centric platform developed to enhance the guest experience. This website serves as a digital gateway for customers to explore our hotel, discover our exceptional services, and make seamless online bookings. 
+Welcome to my Hotel website, a user-centric platform developed to enhance the guest experience. This website serves as a digital gateway for customers to explore our hotel, discover our exceptional services, and make seamless online bookings. 
 Designed with modern aesthetics and functionality in mind, the platform offers:
 -An inituitive navigation system to ensure ease of use.
 -High-quality media to showcase the hotel's ambiance and ameneties.
@@ -35,8 +35,11 @@ Designed with modern aesthetics and functionality in mind, the platform offers:
 Check out the live demo of the project: https://travel-website-yr3h.onrender.com/
 
 ## Features
-Personalized Travel Recommendations: Tailored suggestions based on user preferences, travel history, and budget.
-Curated Travel Guides and Content: In-depth articles, tips, and destination guides created by travel experts and community members.
+Some of it's features include: 
+-Online booking system: Real-time availability checks for rooms and services.
+-Room details: Comprehensive descriptions of room types, features and pricing.
+-Photo and video gallery: Showcase of hotel interiors, rooms and nearby attractions.
+-User friendly navigation: Intuitive menus and a robust search functionality.
 
 ## Technologies Used
 - HTML: For writing my codes
@@ -62,9 +65,9 @@ Or simply double-click the 'index.html' file to open it in your browser.
 This Hotel website is designed with HTML, CSS and javascript to provide an optimized experience.
 
 ## Screenshots
-<img width="308" alt="Screenshot 2024-10-22 112632-Header" src="https://github.com/user-attachments/assets/4b8636b0-e72d-45ed-8b04-88cf80f90275">
-<img width="302" alt="Screenshot 2024-10-22 112724-2" src="https://github.com/user-attachments/assets/03b7ce62-e4aa-4bc8-abb4-e9ecf0ef9f31">
-<img width="311" alt="Screenshot 2024-10-22 112806-3" src="https://github.com/user-attachments/assets/db2b3326-b052-48d2-8171-5de7e2465478">
+<img width="377" alt="Hotelwebsitescreenshot1" src="https://github.com/user-attachments/assets/adbe96b8-07a8-491c-be68-657f40c0fa63">
+<img width="295" alt="Hotelwebsitescreenshot2" src="https://github.com/user-attachments/assets/592dd3f2-3670-406f-ac6e-1ecb46964d9e">
+<img width="279" alt="Hotelwebsitescreenshot3" src="https://github.com/user-attachments/assets/a332cae7-dbf7-4c9f-8297-92b9a143c121">
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
