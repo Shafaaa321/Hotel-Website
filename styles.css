@@ -1,7 +1,11 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} 
 body {
     font-family: "Montserrat";
     overflow-x: hidden;
-    margin-left: 20px;
 }
 .menu-toggle {
     font-size: 35px;
@@ -10,11 +14,9 @@ body {
     border: none;
     color: black;
     cursor: pointer;
-    display: block;
+    margin-left: 10px;
 }
 .logo1 {
-    font-family: "Montserrat";
-    font-weight: "Bold";
     color: #2A90D9;
     margin-left: 53px;
     margin-top: -36px;
@@ -25,23 +27,13 @@ span {
 }
 .profile-picture {
     margin-left: 330px;
-    transform: translateY(-60px);
-}
-.nav-menu {
-    display: flex;
+    transform: translateY(-33px);
 }
 .mobile-menu {
     height: 70px;
-    width: 380px;
 }
 .nav-menu ul {
-    display: flex;
     list-style: none;
-    margin: 0px;
-    padding: 0px;
-}
-.nav-menu li {
-    margin-left: 20px;
 }
 .nav-menu a {
     text-decoration: none;
@@ -55,7 +47,7 @@ span {
     cursor: pointer;
     position: absolute;
     top: 8px;
-    right: 315px;
+    left: 20px;
 }
 .nav-menu {
     display: none;
@@ -71,7 +63,6 @@ span {
     transform: translateX(100%);
     height: 100vh;
     z-index: 1000;
-    margin-right: 100px;
 }
 .nav-menu.active {
     transform: translateX(0);
@@ -107,51 +98,63 @@ h1{
     margin-left: 20px;
     margin-top: 60px;
 }
+.Finding-Apartments{
+    position: relative;
+}
+.first-img {
+    width: 100%;
+    min-width: 320px;
+    display: block;
+    height: auto;
+}
 .header1 {
-    margin-top: -300px;
+    position: absolute;
+    top:10%;
+    left: 5%;
     font-size: 35px;
-    padding-left: 15px;
 }
 .Apartments {
-    font-size: 20px;
-    padding-left: 15px;
-}
-.Finding-Apartments {
-    width: 360px;
-    height: 330px;
+    position: absolute;
+    top: 40%;
+    left: 5%;
 }
 .searching {
     background-color: white;
-    width: 320px;
+    width: 100%;
+    max-width: 320px;
     height: 60px;
     border-radius: 30px;
     margin-left: 20px;
-    margin-top: 30px;
-    position: relative; 
+    position: absolute;
+    top: 70%; 
 }
 .location-img {
     margin-top: 20px;
     margin-left: 20px;
 }
 .where {
-    margin-left: 50px;
-    margin-top: -30px;
+    position: absolute;
+    top: 20%;
+    left: 15%;
 }
 .search {
-    margin-left: 50px;
-    margin-top: -15px;
     color: slategrey;
+    position: absolute;
+    left: 15%;
+    top: 60%;
 }
 .button-img {
-    margin-left: 265px;
-    margin-top: -58px;
     position: absolute;
+    left: 82%;
+    top: 15%;
+}
+.choose-us-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .choose-us {
     background-color: whitesmoke;
-    width: 360px;
-    height: 1200px;
-    margin-top: -15px;
 }
 .header2 {
     text-align: center;
@@ -161,66 +164,81 @@ h3 {
     text-align: center;
 }
 .paragraphs {
+    margin-top: 20px;
     text-align: center;
 }
 .payment-img {
-    margin-left: 130px;
     margin-top: 30px;
-}
-.special-offers {
-    width: 360px;
-    height: 1400px;
-    padding-top: 50px ;
-    margin-top: 46px;
 }
 .header3 {
     text-align: center;
-    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.special-offers{
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .cards {
-    width: 305px;
+    width: 100%;
+    max-width: 330px;
     height: 380px;
     padding-top: 12px;
     padding-left: 12px;
     padding-right: 12px;
-    transform: translateX(5%);
     border-radius: 15px;
     border: solid 2px;
     color: whitesmoke;
-    margin-top: 20px;
+    margin-top: 50px;
+}
+.image-wrapper{
+    position: relative;
+    width: 100%;
+}
+.room-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
 }
 .rating-img {
-    transform: translateY(-580%);
-    padding-left: 10px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
 }
 .heart-img {
-    transform: translateY(-580%);
-    padding-left: 180px;
+    position: absolute;
+    top: 10px;
+    left: 260px;
 }
 .header4{
-    transform: translateY(-30px);
     padding-right: 50px;
     color: black;
     text-align: left;
+    padding-top: 20px;
 }
 .availability {
     color: slategray;
-    transform: translateY(-40px);
 }
 .price-img {
-    transform: translateY(-30px);
+    margin-top: 30px;
 }
 .reviews {
-    width: 360px;
-    height: 1000px;
-    margin-top: -20px;
+    margin-top: 60px;
 }
 .header5 {
-    margin-bottom: 30px;
     text-align: center;
 }
+.review-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .customers {
-    padding-left: 130px;
+    margin-top: 30px;
 }
 .review1 {
     color:slategrey;
@@ -229,72 +247,71 @@ h3 {
     color: slategrey;
 }
 .more-reviews {
-    width: 300px;
+    max-width: 320px;
+    width: 100%;
     height: 50px;
     background-color: #EE685F;
     border-radius: 15px;
-    margin-left: 20px;
     margin-top: 40px;
+    margin-left: 30px;
 }
 .review3 {
     text-align: center;
     padding-top:16px;
 }
 .posts {
-    width: 360px;
-    height: 1300px;
     margin-top: 70px;
 }
 .places {
-    margin-top: 20px;
-    padding-left: 15px;
+    margin-top: 50px;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
 }
 .date {
-    margin-left: 15px;
     color: slategrey;
+    margin-top: 20px;
 }
 .time {
-    margin-left: 240px;
-    transform: translateY(-35px);
+    margin-left: 230px;
+    margin-top: -20px;
 }
 h4 {
     font-size: 20px;
-    transform: translateY(-58px);
-    margin-left: 15px;
 }
 .post {
-    margin-left: 15px;
-    margin-top: -70px;
+    margin-top: 20px;
 }
 .title-section {
     background-color: whitesmoke;
-    width: 360px;
-    height: 900px;
 }
 h5 {
+    margin-top: 30px;
     font-size: 15px;
     margin-left: 15px;
 }
 .page {
+    margin-top: 15px;
     margin-left: 15px;
     color: slategrey;
 }
 .email {
     margin-left: 15px;
     color: slategrey;
-    margin-top: -10px;
+    margin-top: 15px;
 }
 .last-div {
+    margin-top: 10px;
     background-color: white;
-    width: 330px;
+    width: 310px;
     height: 40px;
     border-radius: 10px;
     border: 2px;
     border-color: #EE685F;
-    margin-left: 15px;
+    margin-left: 10px;
 }
 .btn {
-    margin-left: 290px;
+    margin-left: 270px;
 }
 .logo3 {
     font-family: "Montserrat";
@@ -304,16 +321,21 @@ h5 {
     margin-left: 60px;
 }
 hr {
-    width: 330px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    min-width: 320px;
     margin-top: 35px;
     margin-bottom: 50px;
     background-color: slategrey;
 }
 .social {
     margin-left: 10px;
-    margin-top: -25px;
+    margin-top: 20px;
 }
 .design {
+    margin-top: 10px;
     margin-left: 10px;
     color: slategrey;
 }
+

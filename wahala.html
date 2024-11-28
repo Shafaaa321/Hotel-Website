@@ -16,7 +16,6 @@
             <img src="items/icon.svg" class="profile-picture">
             <button id="closeMenu" class="close-menu">&times;</button>
             <ul>
-                <br>
                 <li><a href="#">Last Minute Deals</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">About us</a></li>
@@ -71,35 +70,29 @@
         </div> 
         </div>
         <div class="special-offers">
+            <h2 class="header3">Special offers</h2>
             <div id="SpecialOffersContainer"> 
-                <h2 class="header3">Special offers</h2>
             <!-- <div class="cards">
-                <div class="image-wrapper">
                 <img src="items/HotelRoom1.svg" class="room-img">
                 <img src="items/rating.svg" class="rating-img">
                 <img src="items/favorite.svg" class="heart-img">
-                </div>
-                <h3 class="header4">Wilderness Club at Big <br> Ceddar</h3>
+                <h3 class="header4">Wilderness Club at Big <br> Cedder</h3>
                 <p class="availability">28 October--1 November</p>
                 <img src="items/price.svg" class="price-img">
             </div>
             <div class="cards">
-                <div class="image-wrapper">
                 <img src="items/HotelRoom2.png" class="room-img">
                 <img src="items/rating.svg" class="rating-img">
                 <img src="items/favorite.svg" class="heart-img">
-                </div>
-                <h3 class="header4">Wilderness Club at Big <br> Ceddar</h3>
+                <h3 class="header4">Wilderness Club at Big <br> Cedder</h3>
                 <p class="availability">28 October--1 November</p>
                 <img src="items/price.svg" class="price-img">
             </div>
         <div class="cards">
-            <div class="image-wrapper">
             <img src="items/HotelRoom3.svg" class="room-img">
             <img src="items/rating.svg" class="rating-img">
             <img src="items/favorite.svg" class="heart-img">
-            </div>
-            <h3 class="header4">Wilderness Club at Big <br> Ceddar</h3>
+            <h3 class="header4">Wilderness Club at Big <br> Cedder</h3>
             <p class="availability">28 October--1 November</p>
             <img src="items/price.svg" class="price-img">
         </div> -->
@@ -123,7 +116,7 @@
         <div class="review-card">
         <br>
         <img src="items/reviewpic3.svg" class="customers">
-        <p class="review1">I quickly found the right tour for me, but i had a few questions about the hotel, i wrote to tech support and they answered all my questions within an hour. The vacation itself was perfect. Thank you very much.I will come back again and again.</p>
+        <p class="review1">I quickly found the right tour for me, but i had a few questions about the hotel, i wrote to tech support and they answered all my questions within an hour. The vacation itself was perfect. Thank you very much. <br> I will come back again and again.</p>
         <p class="review2">Kaarel Piho, <span class="span2">Chiropodist</span></p> 
         </div> -->
     </div>
@@ -135,31 +128,25 @@
         <h2 class="header5">Recent posts</h2>
     <div id="PostContainer">
         <!--  <div class="Post"> 
-            <div class="post-pic">
         <img src="items/post1.svg" class="places">
-            </div>
         <p class="date">May 23, 2022</p>
         <img src="items/posttime1.svg" class="time">
         <h4>My trip to Athens</h4>
-        <p class="post">It would seem that in a city where Theseus, Plato  and Epicurus once walked, the very idea of the subway is alien to the city, but already...</p>
+        <p class="post">It would seem that in a city where Theseus, Plato <br> and Epicurus once walked, the very idea of the subway is alien to the city, but already...</p>
         </div>
         <div class="Post"> 
-            <div class="post-pic">
         <img src="items/post2.png" class="places">
-            </div>
         <p class="date">May 22, 2022</p>
         <img src="items/posttime2.svg" class="time">
         <h4>Vilnius resorts</h4>
         <p class="post">I haven't seen any resorts in Vilnius, but there are wonderful people and pubs</p>
         </div>
         <div class="Post"> 
-            <div class="post-pic">
         <img src="items/post3.svg" class="places">
-            </div>
         <p class="date">May 20, 2022</p>
         <img src="items/posttime3.svg" class="time">
         <h4>Tips for flying on a plane</h4>
-        <p class="post">If you have a fear of flying, here's a helpful tip: bring your co-pilot so you can take a nap while he steers the plane for you</p>
+        <p class="post">If you have a fear of flying, here's a helpful tip: <br> bring your co-pilot so you can take a nap while <br> he steers the plane for you</p>
         </div> -->
         </div>
     </div>
@@ -197,3 +184,337 @@
     <script src="script.js"></script>
 </body>
 </html>
+
+
+/* * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} */
+
+body {
+    font-family: "Montserrat";
+    overflow-x: hidden;
+}
+.menu-toggle {
+    font-size: 35px;
+    font-weight: 100;
+    background: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+    display: block;
+}
+.logo1 {
+    font-family: "Montserrat";
+    font-weight: "Bold";
+    color: #2A90D9;
+    margin-left: 53px;
+    margin-top: -36px;
+    font-size: 30px;
+}
+span {
+    color: #EE685F;
+}
+.profile-picture {
+    margin-left: 330px;
+    transform: translateY(-60px);
+}
+.nav-menu {
+    display: flex;
+
+}
+.mobile-menu {
+    height: 70px;
+}
+.nav-menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.nav-menu li {
+    margin-left: 20px;
+}
+.nav-menu a {
+    text-decoration: none;
+    color: black;
+}
+.close-menu {
+    font-size: 50px;
+    background: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+    position: absolute;
+    top: 8px;
+    right: 315px;
+}
+.nav-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    max-width: 370px;
+    background-color: white;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    transform: translateX(100%);
+    height: 100vh;
+    z-index: 1000;
+    margin-right: 100px;
+}
+.nav-menu.active {
+    transform: translateX(0);
+    display: flex;
+}
+.nav-menu ul {
+    flex-direction: column;
+    width: 100%;
+    margin-top: -50px;
+}
+.nav-menu li {
+    margin-left: 30px;
+    margin-top: 35px;
+}
+h1{
+    font-family: "Montserrat";
+    margin-right: 210px;
+}
+.logo2 {
+    color: #2A90D9;
+    margin-left: 60px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.language-img {
+    margin-left: 40px;
+    transform: translateY(-260%);
+}
+.socials {
+    margin-left: 10px;
+}
+.social-icons {
+    margin-left: 20px;
+    margin-top: 60px;
+}
+.first-img {
+    width: 50%;
+}
+.header1 {
+    margin-top: -300px;
+    font-size: 35px;
+    padding-left: 15px;
+}
+.Apartments {
+    font-size: 20px;
+    padding-left: 15px;
+}
+/* .Finding-Apartments {
+    background-image: url('items/Rectangle\ 5\ \(1\).png');
+    width: 100%;
+    background-repeat: no-repeat;
+} */
+.searching {
+    background-color: white;
+    width: 320px;
+    height: 60px;
+    border-radius: 30px;
+    margin-left: 20px;
+    position: relative; 
+}
+.location-img {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.where {
+    margin-left: 50px;
+    margin-top: -30px;
+}
+.search {
+    margin-left: 50px;
+    margin-top: -15px;
+    color: slategrey;
+}
+.button-img {
+    margin-left: 265px;
+    margin-top: -58px;
+    position: absolute;
+}
+
+.choose-us-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.choose-us {
+    background-color: whitesmoke;
+}
+.header2 {
+    text-align: center;
+    padding-top: 50px;
+}
+h3 {
+    text-align: center;
+}
+.paragraphs {
+    text-align: center;
+}
+.payment-img {
+    margin-top: 30px;
+}
+.special-offers {
+    height: 1400px;
+    padding-top: 50px ;
+    margin-top: 46px;
+}
+.header3 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.cards {
+    width: 305px;
+    height: 380px;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    transform: translateX(5%);
+    border-radius: 15px;
+    border: solid 2px;
+    color: whitesmoke;
+    margin-top: 20px;
+}
+.rating-img {
+    transform: translateY(-580%);
+    padding-left: 10px;
+}
+.heart-img {
+    transform: translateY(-580%);
+    padding-left: 180px;
+}
+.header4{
+    transform: translateY(-30px);
+    padding-right: 50px;
+    color: black;
+    text-align: left;
+}
+.availability {
+    color: slategray;
+    transform: translateY(-40px);
+}
+.price-img {
+    transform: translateY(-30px);
+}
+.reviews {
+    height: 1000px;
+    margin-top: -20px;
+}
+.header5 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.review-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.customers {
+    
+}
+.review1 {
+    color:slategrey;
+}
+.span2 {
+    color: slategrey;
+}
+.more-reviews {
+    width: 300px;
+    height: 50px;
+    background-color: #EE685F;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.review3 {
+    text-align: center;
+    padding-top:16px;
+}
+.posts {
+    height: 1300px;
+    margin-top: 70px;
+}
+.places {
+    margin-top: 20px;
+    padding-left: 15px;
+}
+.date {
+    margin-left: 15px;
+    color: slategrey;
+}
+.time {
+    margin-left: 240px;
+    transform: translateY(-35px);
+}
+h4 {
+    font-size: 20px;
+    transform: translateY(-58px);
+    margin-left: 15px;
+}
+.post {
+    margin-left: 15px;
+    margin-top: -70px;
+}
+.title-section {
+    background-color: whitesmoke;
+    height: 900px;
+}
+h5 {
+    font-size: 15px;
+    margin-left: 15px;
+}
+.page {
+    margin-left: 15px;
+    color: slategrey;
+}
+.email {
+    margin-left: 15px;
+    color: slategrey;
+    margin-top: -10px;
+}
+.last-div {
+    background-color: white;
+    width: 330px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px;
+    border-color: #EE685F;
+    margin-left: 10px;
+}
+.btn {
+    margin-left: 290px;
+}
+.logo3 {
+    font-family: "Montserrat";
+    color: #2A90D9;
+    transform: translateX(-50px);
+    margin-top: -25px;
+    margin-left: 60px;
+}
+hr {
+    width: 330px;
+    margin-top: 35px;
+    margin-bottom: 50px;
+    background-color: slategrey;
+}
+.social {
+    margin-left: 10px;
+    margin-top: -25px;
+}
+.design {
+    margin-left: 10px;
+    color: slategrey;
+}
+
+

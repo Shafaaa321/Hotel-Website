@@ -57,7 +57,7 @@ const specialOffers = [
         image1: "items/HotelRoom1.svg",
         image2: "items/rating.svg",
         image3: "items/favorite.svg", 
-        title: "Wilderness Club at Big", 
+        title: "Wilderness Club at Big <br> Ceddar", 
         date: "28 October--1 November",
         image4: "items/price.svg"
     },
@@ -65,7 +65,7 @@ const specialOffers = [
         image1: "items/HotelRoom2.png",
         image2: "items/rating.svg",
         image3: "items/favorite.svg", 
-        title: "Wilderness Club at Big", 
+        title: "Wilderness Club at Big <br> Ceddar", 
         date: "28 October--1 November",
         image4: "items/price.svg" 
     },
@@ -73,7 +73,7 @@ const specialOffers = [
         image1: "items/HotelRoom3.svg",
         image2: "items/rating.svg",
         image3: "items/favorite.svg", 
-        title: "Wilderness Club at Big", 
+        title: "Wilderness Club at Big <br> Ceddar", 
         date: "28 October--1 November",
         image4: "items/price.svg"
     }
@@ -84,9 +84,11 @@ const renderSpecial = specialOffers => {
     specialOffers.forEach(Special => {
         special.innerHTML += `
         <div class="cards">
+        <div class="image-wrapper">
                 <img src=${Special.image1} class="room-img">
                 <img src=${Special.image2} class="rating-img">
                 <img src=${Special.image3} class="heart-img">
+                </div>
                 <h3 class="header4">${Special.title}</h3>
                 <p class="availability">${Special.date}</p>
                 <img src=${Special.image4} class="price-img">
@@ -140,21 +142,21 @@ const RecentPosts = [
         paragraph11: "May 23, 2022",
         image12: "items/posttime1.svg",
         header: "My trip to Athens",
-        paragraph12: "It would seem that in a city where Theseus, Plato <br> and Epicurus once walked, the very idea of the subway is alien to the city, but already..."
+        paragraph12: "It would seem that in a city where Theseus, Plato and Epicurus once walked, the very idea of the subway is alien to the city, but already..."
     },
     {
         image11: "items/post2.png",
         paragraph11: "May 23, 2022",
         image12: "items/posttime2.svg",
-        header: "My trip to Athens",
+        header: "Vilnius resorts",
         paragraph12: "I haven't seen any resorts in Vilnius, but there are wonderful people and pubs"
     },
     {
         image11: "items/post3.svg",
         paragraph11: "May 23, 2022",
         image12: "items/posttime3.svg",
-        header: "My trip to Athens",
-        paragraph12: "If you have a fear of flying, here's a helpful tip: <br> bring your co-pilot so you can take a nap while <br> he steers the plane for you"
+        header: "Tips for flying on a plane",
+        paragraph12: "If you have a fear of flying, here's a helpful tip: bring your co-pilot so you can take a nap while he steers the plane for you"
     }
 ]; 
 
@@ -163,7 +165,9 @@ const renderPosts = RecentPosts => {
     RecentPosts.forEach(post => {
         Posts.innerHTML += `
             <div class="Post"> 
+            <div class="post-pic">
                 <img src=${post.image11} class="places">
+                </div>
                 <p class="date">${post.paragraph11}</p>
                 <img src=${post.image12} class="time">
                 <h4>${post.header}</h4>
