@@ -32,7 +32,7 @@ Designed with modern aesthetics and functionality in mind, the platform offers:
 -A secure and efficient booking system to streamline the reservation process. 
 
 ## Live Demo
-Check out the live demo of the project: https://travel-website-yr3h.onrender.com/
+Check out the live demo of the project: https://hotel-website-w6vf.onrender.com
 
 ## Features
 Some of it's features include: 
