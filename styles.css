@@ -26,7 +26,7 @@ span {
     color: #EE685F;
 }
 .profile-picture {
-    margin-left: 330px;
+    margin-left: 360px;
     transform: translateY(-33px);
 }
 .mobile-menu {
@@ -55,7 +55,6 @@ span {
     top: 0;
     right: 0;
     width: 100%;
-    max-width: 370px;
     background-color: white;
     flex-direction: column;
     align-items: flex-start;
