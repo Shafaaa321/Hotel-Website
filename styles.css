@@ -1,0 +1,340 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} 
+body {
+    font-family: "Montserrat";
+    overflow-x: hidden;
+}
+.menu-toggle {
+    font-size: 35px;
+    font-weight: 100;
+    background: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.logo1 {
+    color: #2A90D9;
+    margin-left: 53px;
+    margin-top: -36px;
+    font-size: 30px;
+}
+span {
+    color: #EE685F;
+}
+.profile-picture {
+    margin-left: 360px;
+    transform: translateY(-33px);
+}
+.mobile-menu {
+    height: 70px;
+}
+.nav-menu ul {
+    list-style: none;
+}
+.nav-menu a {
+    text-decoration: none;
+    color: black;
+}
+.close-menu {
+    font-size: 50px;
+    background: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+    position: absolute;
+    top: 8px;
+    left: 20px;
+}
+.nav-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: white;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    transform: translateX(100%);
+    height: 100vh;
+    z-index: 1000;
+}
+.nav-menu.active {
+    transform: translateX(0);
+    display: flex;
+}
+.nav-menu ul {
+    flex-direction: column;
+    width: 100%;
+    margin-top: -50px;
+}
+.nav-menu li {
+    margin-left: 30px;
+    margin-top: 35px;
+}
+h1{
+    font-family: "Montserrat";
+    margin-right: 210px;
+}
+.logo2 {
+    color: #2A90D9;
+    margin-left: 60px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.language-img {
+    margin-left: 40px;
+    transform: translateY(-260%);
+}
+.socials {
+    margin-left: 10px;
+}
+.social-icons {
+    margin-left: 20px;
+    margin-top: 60px;
+}
+.Finding-Apartments{
+    position: relative;
+}
+.first-img {
+    width: 100%;
+    min-width: 320px;
+    display: block;
+    height: auto;
+}
+.header1 {
+    position: absolute;
+    top:10%;
+    left: 5%;
+    font-size: 35px;
+}
+.Apartments {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+.searching {
+    background-color: white;
+    width: 100%;
+    max-width: 320px;
+    height: 60px;
+    border-radius: 30px;
+    margin-left: 20px;
+    position: absolute;
+    top: 70%; 
+}
+.location-img {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.where {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+.search {
+    color: slategrey;
+    position: absolute;
+    left: 15%;
+    top: 60%;
+}
+.button-img {
+    position: absolute;
+    left: 82%;
+    top: 15%;
+}
+.choose-us-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.choose-us {
+    background-color: whitesmoke;
+}
+.header2 {
+    text-align: center;
+    padding-top: 50px;
+}
+h3 {
+    text-align: center;
+}
+.paragraphs {
+    margin-top: 20px;
+    text-align: center;
+}
+.payment-img {
+    margin-top: 30px;
+}
+.header3 {
+    text-align: center;
+    margin-top: 50px;
+}
+.special-offers{
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards {
+    width: 100%;
+    max-width: 330px;
+    height: 380px;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 15px;
+    border: solid 2px;
+    color: whitesmoke;
+    margin-top: 50px;
+}
+.image-wrapper{
+    position: relative;
+    width: 100%;
+}
+.room-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+.rating-img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+}
+.heart-img {
+    position: absolute;
+    top: 10px;
+    left: 260px;
+}
+.header4{
+    padding-right: 50px;
+    color: black;
+    text-align: left;
+    padding-top: 20px;
+}
+.availability {
+    color: slategray;
+}
+.price-img {
+    margin-top: 30px;
+}
+.reviews {
+    margin-top: 60px;
+}
+.header5 {
+    text-align: center;
+}
+.review-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.customers {
+    margin-top: 30px;
+}
+.review1 {
+    color:slategrey;
+}
+.span2 {
+    color: slategrey;
+}
+.more-reviews {
+    max-width: 320px;
+    width: 100%;
+    height: 50px;
+    background-color: #EE685F;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.review3 {
+    text-align: center;
+    padding-top:16px;
+}
+.posts {
+    margin-top: 70px;
+}
+.places {
+    margin-top: 50px;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+}
+.date {
+    color: slategrey;
+    margin-top: 20px;
+}
+.time {
+    margin-left: 230px;
+    margin-top: -20px;
+}
+h4 {
+    font-size: 20px;
+}
+.post {
+    margin-top: 20px;
+}
+.title-section {
+    background-color: whitesmoke;
+}
+h5 {
+    margin-top: 30px;
+    font-size: 15px;
+    margin-left: 15px;
+}
+.page {
+    margin-top: 15px;
+    margin-left: 15px;
+    color: slategrey;
+}
+.email {
+    margin-left: 15px;
+    color: slategrey;
+    margin-top: 15px;
+}
+.last-div {
+    margin-top: 10px;
+    background-color: white;
+    width: 310px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px;
+    border-color: #EE685F;
+    margin-left: 10px;
+}
+.btn {
+    margin-left: 270px;
+}
+.logo3 {
+    font-family: "Montserrat";
+    color: #2A90D9;
+    transform: translateX(-50px);
+    margin-top: -25px;
+    margin-left: 60px;
+}
+hr {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    min-width: 320px;
+    margin-top: 35px;
+    margin-bottom: 50px;
+    background-color: slategrey;
+}
+.social {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.design {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: slategrey;
+}
+
